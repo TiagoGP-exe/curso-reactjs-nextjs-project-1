@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 60px;
+  padding: 30px;
 }
 
 .button-container {
@@ -17,6 +17,12 @@
   margin-bottom: 30px;
 }
 
-.container p {
+.pg {
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
 }
