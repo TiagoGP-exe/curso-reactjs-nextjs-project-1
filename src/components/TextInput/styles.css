@@ -1,0 +1,29 @@
+.text-input {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-size: 28px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid rgb(224, 224, 224);
+}
+
+input {
+  background-color: rgb(224, 224, 224);
+  color: rgb(114, 114, 114);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  background-color: #eee;
+  color: black;
+  border: 2px solid rgb(224, 224, 224);
+}
+
+input::placeholder {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.315);
+}

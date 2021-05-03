@@ -1,0 +1,23 @@
+.post {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 00 10px rgba(167, 167, 167, 0.1);
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.post:hover {
+  transform: scale(1.05);
+}
+
+.post img {
+  border-radius: 10px 10px 0 0;
+  max-width: 100%;
+}
+
+.post-content {
+  border-radius: 1000rem;
+  padding: 30px;
+}
