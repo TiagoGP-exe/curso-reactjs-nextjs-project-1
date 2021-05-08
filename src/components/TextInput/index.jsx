@@ -1,5 +1,7 @@
-import './styles.css'
+import P from 'prop-types';
+import './styles.css';
 
+// eslint-disable-next-line react/prop-types
 export const TextInput = ({ searchValue, handleChange }) => {
   return (
     <input
@@ -9,5 +11,10 @@ export const TextInput = ({ searchValue, handleChange }) => {
       type="search"
       placeholder="Type your search"
     />
-  )
+  );
+};
+
+TextInput.propsTypes = {
+  searchValue: P.string.isRequired,
+  handleChange: P.func.isRequired,
 };
